@@ -16,7 +16,7 @@
 
 <form class="formular" name="myform" method="POST">
         <label for="nick">Jméno:</label><br>
-        <input type="text" name=jmeno pattern="[a-zA-Z0-9-]+" minlength="5" maxlength="20" name="nick"><br>
+        <input type="text" name=jmeno pattern="[a-zA-Z0-9-]+" minlength="5" maxlength="20" name="nick" required><br>
         <div id="wrapper">
             <label for="je_plavec">Jsi plavec?</label>
           <p>
@@ -32,7 +32,7 @@
           <input type="text"  name="kanoe_kamarad"><br>
         </form>
 <button type="submit">Odeslat</button>
-<button onclick="window.location.href='/prvni_stranka';">Click Here
+<button onclick="window.location.href='/prvni_stranka'">Don't click Here
     </button>
              </div>
       </div>
